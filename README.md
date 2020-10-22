@@ -26,7 +26,7 @@
 `sudo chmod +x masternode-install-ubuntu.sh` <br>
 
 - For Ubuntu 18.04+ use this: <br>
-`sudo chmod +x masternode-install-ubuntu.sh.sh` <br>
+`sudo chmod +x masternode-install-ubuntu.sh` <br>
 
 3. Now install your masternode.  
 `./masternode-install-ubuntu.sh`
