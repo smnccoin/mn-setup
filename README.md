@@ -8,7 +8,7 @@
 *** <br>
 <br>***
 
-2. Download your Local Wallet: https://github.com/smnccoin/mn-setup/blob/main/masternode-install-ubuntu.sh
+2. Download your Local Wallet: https://github.com/smnccoin/smnc/releases/download/v1000/SMNC-Win-1000-Wallet.zip
 
 - You can see daily income and collateral info here: 
 
