@@ -88,13 +88,13 @@ Example output
 
 Modify the following line in your masternode.conf file and paste it into:
 ```
-MN01 VPSIP:16486 7VatfYVk5fFMTymPDhgSURAESDACJhWpd89WHGoh35d9fbLQPj5 506a242ccbfd2555bcd9cff5f4041752c911f39cb2905acc83ccfe0cf8808df9 1
+MN01 VPSIP:39454 7VatfYVk5fFMTymPDhgSURAESDACJhWpd89WHGoh35d9fbLQPj5 506a242ccbfd2555bcd9cff5f4041752c911f39cb2905acc83ccfe0cf8808df9 1
 ```
 MN01 - Alias for your masternode.
 
 VPSIP- External IP address of your VPS.
 
-16486 - The port for Catscoin
+39454 - The port for smnc 
 
 7VatfYVk5fFMTymPDhgSURAESDACJhWpd89WHGoh35d9fbLQPj5 - Masternode private key from the command “createmasternodekey”.
 
