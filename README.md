@@ -4,7 +4,7 @@
 ### Required:
 
 1. SMNC Coin for Collateral <br>
-(You can buy Opal from exchange for collateral) <br>
+(You can buy SMNC from exchange for collateral) <br>
 *** <br>
 <br>***
 
