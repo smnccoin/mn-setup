@@ -1,5 +1,4 @@
 # !/bin/bash
-
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='smnc.conf'
 CONFIGFOLDER='/root/.smnc'
