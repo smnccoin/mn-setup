@@ -6,6 +6,7 @@
 1. SMNC Coin for Collateral <br>
 (You can buy SMNC from exchange for collateral) <br>
 *** <br>
+Exchange: https://graviex.net/markets/smncbtc
 <br>***
 
 2. Download your Local Wallet: https://github.com/smnccoin/smnc/releases/download/v1000/SMNC-Win-1000-Wallet.zip
