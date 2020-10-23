@@ -1,4 +1,5 @@
-# !/bin/bash
+#!/bin/bash
+
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='smnc.conf'
 CONFIGFOLDER='/root/.smnc'
@@ -17,7 +18,9 @@ PROJECT_NAME='SIMPLEMASTERNODE (SMNC)'
 COIN_EXPLORER='http://explorer.smnccoin.com'
 COIN_PORT=39454
 RPC_PORT=39455
+
 NODEIP=$(curl -s4 icanhazip.com)
+
 BLUE="\033[0;34m"
 YELLOW="\033[0;33m"
 CYAN="\033[0;36m" 
@@ -26,7 +29,9 @@ RED='\033[0;31m'
 GREEN="\033[0;32m"
 NC='\033[0m'
 MAG='\e[1;35m'
+
 LICON=$'#'
+
 purgeOldInstallation() {
     echo -e "${YELLOW}Searching and removing old ${BLUE}$PROJECT_NAME ${GREEN}Masternode ${YELLOW}files and configurations${NC}"
 	#stopping service
@@ -85,6 +90,7 @@ function download_node() {
   #compile_error
   unzip $COIN_TGZ >/dev/null 2>&1
   rm -r $COIN_TGZ >/dev/null 2>&1
+
   #compile_error
   chmod +x $COIN_DAEMON >/dev/null 2>&1
   chmod +x $COIN_CLI >/dev/null 2>&1
@@ -467,3 +473,4 @@ prepare_system
 download_node
 setup_node
 set_scripts_and_aliases
+
