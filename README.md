@@ -20,14 +20,12 @@ Exchange: https://graviex.net/markets/smncbtc
 
 1. After you longin on your VPS , with this command you will download masternode-installer.   
 `wget https://raw.githubusercontent.com/smnccoin/mn-setup/main/masternode-install-ubuntu.sh`  
-- For Ubuntu 18.04 + use this one command   
-`wget https://raw.githubusercontent.com/smnccoin/mn-setup/main/masternode-install-ubuntu.sh` 
+ 
 
-2. With this command you will make masternode-install-ubuntu-16.04.sh executable.  
+2. With this command you will make masternode-install-ubuntu.sh executable.  
 `sudo chmod +x masternode-install-ubuntu.sh` <br>
 
-- For Ubuntu 18.04+ use this: <br>
-`sudo chmod +x masternode-install-ubuntu.sh` <br>
+
 
 3. Now install your masternode.  
 `./masternode-install-ubuntu.sh`
@@ -63,7 +61,7 @@ getaccountaddress "MN01"
 
 Example output
 
-CDC99hZmSmYEcBu4WcxA2TCT6KBqHB6Hos
+ShCQLnPeH2Z7FoKfvn7VDwJ8jBmhnq2vVZ
 ```
 Transfer the required amount of coins to the “collateral address” that you created using the command “getaccountaddress "MN1"”.
 ```
@@ -81,7 +79,7 @@ Example output
 
 [
   {
-    "txhash": "506a242ccbfd2555bcd9cff5f4041752c911f39cb2905acc83ccfe0cf8808df9",
+    "txhash": "3dsa242ccbfd2555bcd9cff4532041752c911f39cb2sawgacc83ccfe0cf8808fsw",
     "outputidx": 1
   }
 ]
