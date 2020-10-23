@@ -375,7 +375,7 @@ libminiupnpc-dev libgmp3-dev ufw pkg-config libevent-dev  libdb5.3++ libstdc++6 
 # fi
 clear
 }
-
+echo finished
 function set_scripts_and_aliases() {
 cat << EOF > /root/smnc-general-info
 echo -e "\n\n${BLUE}=======================================================================================================${NC}\n"
