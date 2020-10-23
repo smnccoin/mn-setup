@@ -30,8 +30,6 @@ Exchange: https://graviex.net/markets/smncbtc
 3. Now install your masternode.  
 `./masternode-install-ubuntu.sh`
 
-- For Ubuntu 18.04+ use this to install masternode: <br>
-`./masternode-install-ubuntu.sh`
 
 
 
